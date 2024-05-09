@@ -1,0 +1,11 @@
+###---introduction-to-sql---###
+SQL, a powerful tool for interacting with relational databases, allows you to answer complex questions by querying data across multiple tables. Here are the key points you covered:
+
+SQL Queries: You discovered how to use SQL to find specific information, like which books were checked out by a particular patron in a given year or comparing salaries across departments.
+SELECT and FROM Keywords: You learned that the SELECT keyword is used to specify which fields you want to retrieve, and the FROM keyword indicates the table from which to pull this data. For instance, to select the name field from the patrons table, you would use:
+SELECT name
+FROM patrons;
+Result Sets: You saw how queries return a result set, which is the list of data you requested. Importantly, executing a query does not alter the database itself.
+Selecting Multiple Fields: You practiced selecting multiple fields from a table by listing the field names after the SELECT keyword, separated by commas. You also learned that using an asterisk (*) selects all fields from a table.
+SQL Style: The importance of formatting SQL queries for readability was emphasized, including capitalizing keywords and keeping table and field names lowercase.
+This lesson equipped you with the foundational skills to start exploring databases and extracting meaningful information using SQL.
